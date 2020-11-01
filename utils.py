@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def plot_hipdory(history):
+def plot_history(history):
     hist = pd.DataFrame(history.history)
     hist['epoch'] = history.epoch
 
